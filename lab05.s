@@ -95,6 +95,10 @@ taken:
 
 # ----------------------------------------------------------------------------------------
 # TODO: Add an example with taken branch to a label which is immediately following the branch
+    beq  zero, s0, nextInstr
+nextInstr:
+    add  t0, s1, s2 
+    add  t1, s2, s3
 # ----------------------------------------------------------------------------------------
 
 
